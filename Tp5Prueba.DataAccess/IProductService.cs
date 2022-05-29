@@ -8,6 +8,7 @@ namespace Tp5Prueba.DataAccess
     public interface IProductService
     {
         List<Producto> getAll();
-        public List<Producto> GetFiltered(Func<Producto, bool> expression);
+        List<Producto> GetFiltered(Func<Producto, bool> expression);
+        int GetNextId();
     }
 }

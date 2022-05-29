@@ -8,3 +8,13 @@ C:\Users\lucia\source\repos\Tp5Prueba\Tp5Prueba.Model\obj\Debug\netcoreapp3.1\Tp
 C:\Users\lucia\source\repos\Tp5Prueba\Tp5Prueba.Model\obj\Debug\netcoreapp3.1\Tp5Prueba.Model.csproj.CoreCompileInputs.cache
 C:\Users\lucia\source\repos\Tp5Prueba\Tp5Prueba.Model\obj\Debug\netcoreapp3.1\Tp5Prueba.Model.dll
 C:\Users\lucia\source\repos\Tp5Prueba\Tp5Prueba.Model\obj\Debug\netcoreapp3.1\Tp5Prueba.Model.pdb
+D:\repos\Tp5Prueba\Tp5Prueba.Model\bin\Debug\netcoreapp3.1\Tp5Prueba.Model.deps.json
+D:\repos\Tp5Prueba\Tp5Prueba.Model\bin\Debug\netcoreapp3.1\Tp5Prueba.Model.dll
+D:\repos\Tp5Prueba\Tp5Prueba.Model\bin\Debug\netcoreapp3.1\Tp5Prueba.Model.pdb
+D:\repos\Tp5Prueba\Tp5Prueba.Model\obj\Debug\netcoreapp3.1\Tp5Prueba.Model.csproj.AssemblyReference.cache
+D:\repos\Tp5Prueba\Tp5Prueba.Model\obj\Debug\netcoreapp3.1\Tp5Prueba.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\Tp5Prueba\Tp5Prueba.Model\obj\Debug\netcoreapp3.1\Tp5Prueba.Model.AssemblyInfoInputs.cache
+D:\repos\Tp5Prueba\Tp5Prueba.Model\obj\Debug\netcoreapp3.1\Tp5Prueba.Model.AssemblyInfo.cs
+D:\repos\Tp5Prueba\Tp5Prueba.Model\obj\Debug\netcoreapp3.1\Tp5Prueba.Model.csproj.CoreCompileInputs.cache
+D:\repos\Tp5Prueba\Tp5Prueba.Model\obj\Debug\netcoreapp3.1\Tp5Prueba.Model.dll
+D:\repos\Tp5Prueba\Tp5Prueba.Model\obj\Debug\netcoreapp3.1\Tp5Prueba.Model.pdb

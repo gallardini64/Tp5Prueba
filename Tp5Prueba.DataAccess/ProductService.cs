@@ -24,5 +24,10 @@ namespace Tp5Prueba.DataAccess
         {
             return getAll().Where(expression).ToList();
         }
+
+        public int GetNextId()
+        {
+            return getAll().Max(x => x.Codigo) + 1;
+        }
     }
 }

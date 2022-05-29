@@ -16,7 +16,7 @@ namespace Tp5Prueba.Model
         }
         public double MargenGanancia
         {
-            get { return margenGanacia; }
+            get { return Math.Round(margenGanacia,2); }
             set
             {
                 precioFinal = CostoConIva + (CostoConIva * value);
@@ -33,6 +33,18 @@ namespace Tp5Prueba.Model
             }
         }
         public int Existencias { get; set; } = 0;
-        public Estado Estado { get; set; }
+        public Estado Estado { get; set; } = Estado.Activo;
+
+        public bool Validar()
+        {
+            var result = true;
+            if (Codigo <= 0) result = false;
+            if (string.IsNullOrEmpty(Descripcion)) result = false;
+            if (string.IsNullOrEmpty(Descripcion)) result = false;
+            if (CostoSinIva <= 0) result = false;
+            if (precioFinal <= 0) result = false;
+            if (Existencias <= 0) result = false;
+            return result;
+        }
     }
 }

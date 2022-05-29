@@ -1,11 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Tp5Prueba.DataAccess;
 using Tp5Prueba.Model;
@@ -16,11 +12,12 @@ namespace Tp5Prueba
     {
         public List<Producto> Productos { get; set; }
         public IProductService Service { get; set; }
+        public VistaProducto VistaProducto { get; set; }
         public VistaPrincipal()
         {
             InitializeComponent();
             InicializarServicios();
-            InicializarTabla();
+            RecargarTabla();
         }
 
         private void InicializarServicios()
@@ -29,9 +26,11 @@ namespace Tp5Prueba
             Productos = Service.GetFiltered(x => x.Existencias > 0);
         }
 
-        private void InicializarTabla()
+        public void RecargarTabla()
         {
             dataGridProductos.DataSource = Productos;
+            dataGridProductos.Update();
+            dataGridProductos.Refresh();
         }
 
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
@@ -52,14 +51,20 @@ namespace Tp5Prueba
             }
             else
             {
-                InicializarTabla();
+                RecargarTabla();
             }
             
         }
 
         private void crearToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            VistaProducto = new VistaProducto();
+            VistaProducto.Crear(this);
+        }
 
+        internal void Agregar(Producto producto)
+        {
+            Productos.Add(producto);
         }
     }
 }
