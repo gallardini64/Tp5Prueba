@@ -1,0 +1,13 @@
+C:\Users\lucia\source\repos\Tp5Prueba\Tp5Prueba.DataAccess\bin\Debug\netcoreapp3.1\Tp5Prueba.DataAccess.deps.json
+C:\Users\lucia\source\repos\Tp5Prueba\Tp5Prueba.DataAccess\bin\Debug\netcoreapp3.1\Tp5Prueba.DataAccess.dll
+C:\Users\lucia\source\repos\Tp5Prueba\Tp5Prueba.DataAccess\bin\Debug\netcoreapp3.1\Tp5Prueba.DataAccess.pdb
+C:\Users\lucia\source\repos\Tp5Prueba\Tp5Prueba.DataAccess\bin\Debug\netcoreapp3.1\Tp5Prueba.Model.dll
+C:\Users\lucia\source\repos\Tp5Prueba\Tp5Prueba.DataAccess\bin\Debug\netcoreapp3.1\Tp5Prueba.Model.pdb
+C:\Users\lucia\source\repos\Tp5Prueba\Tp5Prueba.DataAccess\obj\Debug\netcoreapp3.1\Tp5Prueba.DataAccess.csproj.AssemblyReference.cache
+C:\Users\lucia\source\repos\Tp5Prueba\Tp5Prueba.DataAccess\obj\Debug\netcoreapp3.1\Tp5Prueba.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucia\source\repos\Tp5Prueba\Tp5Prueba.DataAccess\obj\Debug\netcoreapp3.1\Tp5Prueba.DataAccess.AssemblyInfoInputs.cache
+C:\Users\lucia\source\repos\Tp5Prueba\Tp5Prueba.DataAccess\obj\Debug\netcoreapp3.1\Tp5Prueba.DataAccess.AssemblyInfo.cs
+C:\Users\lucia\source\repos\Tp5Prueba\Tp5Prueba.DataAccess\obj\Debug\netcoreapp3.1\Tp5Prueba.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\lucia\source\repos\Tp5Prueba\Tp5Prueba.DataAccess\obj\Debug\netcoreapp3.1\Tp5Prueba.DataAccess.csproj.CopyComplete
+C:\Users\lucia\source\repos\Tp5Prueba\Tp5Prueba.DataAccess\obj\Debug\netcoreapp3.1\Tp5Prueba.DataAccess.dll
+C:\Users\lucia\source\repos\Tp5Prueba\Tp5Prueba.DataAccess\obj\Debug\netcoreapp3.1\Tp5Prueba.DataAccess.pdb

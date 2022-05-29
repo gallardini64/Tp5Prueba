@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Tp5Prueba/1.0.0": {
+        "dependencies": {
+          "Tp5Prueba.DataAccess": "1.0.0",
+          "Tp5Prueba.Model": "1.0.0"
+        },
+        "runtime": {
+          "Tp5Prueba.dll": {}
+        }
+      },
+      "Tp5Prueba.DataAccess/1.0.0": {
+        "dependencies": {
+          "Tp5Prueba.Model": "1.0.0"
+        },
+        "runtime": {
+          "Tp5Prueba.DataAccess.dll": {}
+        }
+      },
+      "Tp5Prueba.Model/1.0.0": {
+        "runtime": {
+          "Tp5Prueba.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tp5Prueba/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tp5Prueba.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tp5Prueba.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

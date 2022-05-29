@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tp5Prueba.DataAccess\Tp5Prueba.DataAccess.csproj" />
+    <ProjectReference Include="..\Tp5Prueba.Model\Tp5Prueba.Model.csproj" />
+  </ItemGroup>
+
+</Project>
