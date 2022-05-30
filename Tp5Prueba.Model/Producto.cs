@@ -28,7 +28,7 @@ namespace Tp5Prueba.Model
             get { return precioFinal; }
             set 
             { 
-                margenGanacia = (precioFinal - CostoConIva) / CostoConIva;
+                margenGanacia = (value - CostoConIva) / CostoConIva;
                 precioFinal = value;
             }
         }
@@ -44,6 +44,7 @@ namespace Tp5Prueba.Model
             if (CostoSinIva <= 0) result = false;
             if (precioFinal <= 0) result = false;
             if (Existencias <= 0) result = false;
+            if (Estado != Estado.Activo) result = false;
             return result;
         }
     }

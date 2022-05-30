@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\Tp5Prueba\\Tp5Prueba.DataAccess\\Tp5Prueba.DataAccess.csproj": {}
+    "C:\\Users\\lucia\\source\\repos\\Tp5Prueba\\Tp5Prueba.DataAccess\\Tp5Prueba.DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\repos\\Tp5Prueba\\Tp5Prueba.DataAccess\\Tp5Prueba.DataAccess.csproj": {
+    "C:\\Users\\lucia\\source\\repos\\Tp5Prueba\\Tp5Prueba.DataAccess\\Tp5Prueba.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\Tp5Prueba\\Tp5Prueba.DataAccess\\Tp5Prueba.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\lucia\\source\\repos\\Tp5Prueba\\Tp5Prueba.DataAccess\\Tp5Prueba.DataAccess.csproj",
         "projectName": "Tp5Prueba.DataAccess",
-        "projectPath": "D:\\repos\\Tp5Prueba\\Tp5Prueba.DataAccess\\Tp5Prueba.DataAccess.csproj",
+        "projectPath": "C:\\Users\\lucia\\source\\repos\\Tp5Prueba\\Tp5Prueba.DataAccess\\Tp5Prueba.DataAccess.csproj",
         "packagesPath": "C:\\Users\\lucia\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\Tp5Prueba\\Tp5Prueba.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\lucia\\source\\repos\\Tp5Prueba\\Tp5Prueba.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\repos\\Tp5Prueba\\Tp5Prueba.Model\\Tp5Prueba.Model.csproj": {
-                "projectPath": "D:\\repos\\Tp5Prueba\\Tp5Prueba.Model\\Tp5Prueba.Model.csproj"
+              "C:\\Users\\lucia\\source\\repos\\Tp5Prueba\\Tp5Prueba.Model\\Tp5Prueba.Model.csproj": {
+                "projectPath": "C:\\Users\\lucia\\source\\repos\\Tp5Prueba\\Tp5Prueba.Model\\Tp5Prueba.Model.csproj"
               }
             }
           }
@@ -62,14 +62,14 @@
         }
       }
     },
-    "D:\\repos\\Tp5Prueba\\Tp5Prueba.Model\\Tp5Prueba.Model.csproj": {
+    "C:\\Users\\lucia\\source\\repos\\Tp5Prueba\\Tp5Prueba.Model\\Tp5Prueba.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\Tp5Prueba\\Tp5Prueba.Model\\Tp5Prueba.Model.csproj",
+        "projectUniqueName": "C:\\Users\\lucia\\source\\repos\\Tp5Prueba\\Tp5Prueba.Model\\Tp5Prueba.Model.csproj",
         "projectName": "Tp5Prueba.Model",
-        "projectPath": "D:\\repos\\Tp5Prueba\\Tp5Prueba.Model\\Tp5Prueba.Model.csproj",
+        "projectPath": "C:\\Users\\lucia\\source\\repos\\Tp5Prueba\\Tp5Prueba.Model\\Tp5Prueba.Model.csproj",
         "packagesPath": "C:\\Users\\lucia\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\Tp5Prueba\\Tp5Prueba.Model\\obj\\",
+        "outputPath": "C:\\Users\\lucia\\source\\repos\\Tp5Prueba\\Tp5Prueba.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",

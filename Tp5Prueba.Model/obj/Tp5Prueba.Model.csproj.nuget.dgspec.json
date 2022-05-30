@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\Tp5Prueba\\Tp5Prueba.Model\\Tp5Prueba.Model.csproj": {}
+    "C:\\Users\\lucia\\source\\repos\\Tp5Prueba\\Tp5Prueba.Model\\Tp5Prueba.Model.csproj": {}
   },
   "projects": {
-    "D:\\repos\\Tp5Prueba\\Tp5Prueba.Model\\Tp5Prueba.Model.csproj": {
+    "C:\\Users\\lucia\\source\\repos\\Tp5Prueba\\Tp5Prueba.Model\\Tp5Prueba.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\Tp5Prueba\\Tp5Prueba.Model\\Tp5Prueba.Model.csproj",
+        "projectUniqueName": "C:\\Users\\lucia\\source\\repos\\Tp5Prueba\\Tp5Prueba.Model\\Tp5Prueba.Model.csproj",
         "projectName": "Tp5Prueba.Model",
-        "projectPath": "D:\\repos\\Tp5Prueba\\Tp5Prueba.Model\\Tp5Prueba.Model.csproj",
+        "projectPath": "C:\\Users\\lucia\\source\\repos\\Tp5Prueba\\Tp5Prueba.Model\\Tp5Prueba.Model.csproj",
         "packagesPath": "C:\\Users\\lucia\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\Tp5Prueba\\Tp5Prueba.Model\\obj\\",
+        "outputPath": "C:\\Users\\lucia\\source\\repos\\Tp5Prueba\\Tp5Prueba.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",

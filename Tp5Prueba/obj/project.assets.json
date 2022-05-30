@@ -51,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\repos\\Tp5Prueba\\Tp5Prueba\\Tp5Prueba.csproj",
+      "projectUniqueName": "C:\\Users\\lucia\\source\\repos\\Tp5Prueba\\Tp5Prueba\\Tp5Prueba.csproj",
       "projectName": "Tp5Prueba",
-      "projectPath": "D:\\repos\\Tp5Prueba\\Tp5Prueba\\Tp5Prueba.csproj",
+      "projectPath": "C:\\Users\\lucia\\source\\repos\\Tp5Prueba\\Tp5Prueba\\Tp5Prueba.csproj",
       "packagesPath": "C:\\Users\\lucia\\.nuget\\packages\\",
-      "outputPath": "D:\\repos\\Tp5Prueba\\Tp5Prueba\\obj\\",
+      "outputPath": "C:\\Users\\lucia\\source\\repos\\Tp5Prueba\\Tp5Prueba\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -72,11 +72,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\repos\\Tp5Prueba\\Tp5Prueba.DataAccess\\Tp5Prueba.DataAccess.csproj": {
-              "projectPath": "D:\\repos\\Tp5Prueba\\Tp5Prueba.DataAccess\\Tp5Prueba.DataAccess.csproj"
+            "C:\\Users\\lucia\\source\\repos\\Tp5Prueba\\Tp5Prueba.DataAccess\\Tp5Prueba.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\lucia\\source\\repos\\Tp5Prueba\\Tp5Prueba.DataAccess\\Tp5Prueba.DataAccess.csproj"
             },
-            "D:\\repos\\Tp5Prueba\\Tp5Prueba.Model\\Tp5Prueba.Model.csproj": {
-              "projectPath": "D:\\repos\\Tp5Prueba\\Tp5Prueba.Model\\Tp5Prueba.Model.csproj"
+            "C:\\Users\\lucia\\source\\repos\\Tp5Prueba\\Tp5Prueba.Model\\Tp5Prueba.Model.csproj": {
+              "projectPath": "C:\\Users\\lucia\\source\\repos\\Tp5Prueba\\Tp5Prueba.Model\\Tp5Prueba.Model.csproj"
             }
           }
         }

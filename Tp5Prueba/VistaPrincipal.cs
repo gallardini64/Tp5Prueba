@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Threading;
 using System.Windows.Forms;
 using Tp5Prueba.DataAccess;
 using Tp5Prueba.Model;
@@ -29,8 +30,8 @@ namespace Tp5Prueba
         public void RecargarTabla()
         {
             dataGridProductos.DataSource = Productos;
-            dataGridProductos.Update();
             dataGridProductos.Refresh();
+            dataGridProductos.Update();
         }
 
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
@@ -53,12 +54,13 @@ namespace Tp5Prueba
             {
                 RecargarTabla();
             }
-            
         }
 
+        
         private void crearToolStripMenuItem_Click(object sender, EventArgs e)
         {
             VistaProducto = new VistaProducto();
+            VistaProducto.Aceptar += RecargarTabla;
             VistaProducto.Crear(this);
         }
 
@@ -66,5 +68,9 @@ namespace Tp5Prueba
         {
             Productos.Add(producto);
         }
+
+        
+
+
     }
 }

@@ -41,3 +41,4 @@ D:\repos\Tp5Prueba\Tp5Prueba\obj\Debug\netcoreapp3.1\Tp5Prueba.csproj.CopyComple
 D:\repos\Tp5Prueba\Tp5Prueba\obj\Debug\netcoreapp3.1\Tp5Prueba.dll
 D:\repos\Tp5Prueba\Tp5Prueba\obj\Debug\netcoreapp3.1\Tp5Prueba.pdb
 D:\repos\Tp5Prueba\Tp5Prueba\obj\Debug\netcoreapp3.1\Tp5Prueba.genruntimeconfig.cache
+C:\Users\lucia\source\repos\Tp5Prueba\Tp5Prueba\obj\Debug\netcoreapp3.1\Tp5Prueba.VistaProducto.resources

@@ -7,6 +7,7 @@ namespace Tp5Prueba
 {
     public partial class VistaProducto : Form
     {
+        public Action Aceptar;
         public Producto Producto { get; set; }
         public IProductService Servicio { get; set; }
         public VistaPrincipal VistaPadre { get; set; }
@@ -29,7 +30,6 @@ namespace Tp5Prueba
             tbMargenGanancia.DataBindings.Add(new Binding("Text", producto, "MargenGanancia"));
             tbPrecioFinal.DataBindings.Add(new Binding("Text", producto, "PrecioFinal"));
             tbExistencias.DataBindings.Add(new Binding("Text", producto, "Existencias"));
-            cbEstado.DataBindings.Add(new Binding("Text", producto, "Estado"));
         }
 
         private void btCancelar_Click(object sender, EventArgs e)
@@ -47,13 +47,24 @@ namespace Tp5Prueba
 
         private void btConfirmar_Click(object sender, EventArgs e)
         {
+            Producto.Estado = (Estado)cbEstado.SelectedItem;
             if (Producto.Validar())
             {
                 VistaPadre.Agregar(Producto);
+                Close();
+                OnAceptar();
+                Dispose();
             }
-            Close();
-            VistaPadre.RecargarTabla();
-            Dispose();
+            else
+            {
+                MessageBox.Show("se olvido de cargar un dato");
+            }
+            
+        }
+
+        public void OnAceptar()
+        {
+            Aceptar.Invoke();
         }
     }
 }
