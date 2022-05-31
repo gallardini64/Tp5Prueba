@@ -144,6 +144,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "VistaPrincipal";
             this.Text = "VistaPrincipal";
+            this.Activated += new System.EventHandler(this.VistaPrincipal_Activated);
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridProductos)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);

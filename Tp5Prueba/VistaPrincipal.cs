@@ -42,6 +42,8 @@ namespace Tp5Prueba
             }
         }
 
+        
+
         private void Buscar()
         {
             int codigo;
@@ -69,8 +71,9 @@ namespace Tp5Prueba
             Productos.Add(producto);
         }
 
-        
-
-
+        private void VistaPrincipal_Activated(object sender, EventArgs e)
+        {
+            RecargarTabla();
+        }
     }
 }

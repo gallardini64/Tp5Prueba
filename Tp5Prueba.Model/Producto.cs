@@ -25,7 +25,7 @@ namespace Tp5Prueba.Model
         }
         public double PrecioFinal
         {
-            get { return precioFinal; }
+            get { return CostoConIva + (CostoConIva * margenGanacia); }
             set 
             { 
                 margenGanacia = (value - CostoConIva) / CostoConIva;
